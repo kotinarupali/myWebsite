@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatiblle" content="IE-edge">
+		<meta name="Viewport" content="width=device-width, initial-scale=1">
+		<meta name="Rupali" content="resume website">
+		<title>
+			Rupali Kotina
+		</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+	<body>
+		
+		<nav id="navBar">
+			
+			<h2>
+					RUPALI KOTINA
+			</h2>
+
+			<div class="menuIcon">
+
+				<i class="fa fa-bars" aria-hidden="true"></i>
+
+			</div>
+
+			<ul class="smallScreen">
+
+				<li><a href="projects.html">PROJECTS</a></li>
+              	<li><a href="resume.pdf">RESUME</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="index.html">HOME</a></li>
+
+           </ul>
+
+		</nav>
+
+		<div id="wrapper">
+
+
+			<section id="blogSection">
+
+				<h1>
+					"What did you say?"
+				</h1>
+
+				<p>Growing up, whenever I am having a conversation with someone I often find myself asking them to repeat what themselves. I always thought it was normal until one day when my parents found it odd. It wasn’t reassuring me with the fact that it’s okay, a part of me always knew there’s something missing. Like any concerned parents, they decided on consulting a hearing specialist. I was 16 years old and was confident will pass the test with flying colors, in other words, there won’t be any problems.</p>
+
+				<p>We visited a specialist during the day and he conducted tests with different kinds of sounds. At first, I was able to hear most of the sounds: buzz, crash, rattle, ring, zap, gurgle but then with other tests I didn’t hear anything just felt the vibrations. It was shaking my body and went up to my head and eyes causing me pain. At that moment I felt he was testing me and everything was alright and i kept reminding myself “Everything is okay”. With a few more of the similar vibrations in the span of less than five minutes I realized that I cannot hear with my left ear. I knew it, before exiting the room, I knew the truth, but looking at the familiar faces as I stepped outside the room after what felt like an hour I decided not to say a word and just keep smiling.</p>
+
+				<p>Following that night my parents and I went to follow up with the specialist and the reports, he told the one thing I was scared to hear, that I can’t hear with my left ear. We did not have the hard conversation that night and decided to talk to the doctor first thing in the morning. We went to the doctors’ office hoping the doctor wouldn’t confirm what we already knew. He looked over the reports, glanced at us and confirmed it, he said, “It’s profound hearing loss”. I was frozen and speechless and it was all a blur for the next few minutes.</p>
+
+				<p>The doctor mentioned this is very rare and happens to 1 in 1000 people. I did not know if I should feel lucky that I am one of the thousand or be sad that I do not have a normal hearing. The doctor was not able to detect the cause, but this changed the course of my entire life. He was surprised by the fact that it took us this long to figure out I was having hearing issues in the world of cell phones and earphones. In my defense, I never liked earphones and always preferred headphones. This changed my entire life, my perception and how I wanted to live my life.</p>
+
+				<p>I realize this might be trivial, but it is a huge part of who I am today.  At present, my choices and my decisions for any activity revolve around the idea that I can have a normal conversation with someone without having to ask “What did you say?”. I am inclined to choose quieter places, and to dislike crowded or loud places. I have an aversion to attend games because of the crowd cheering, or visit temples because of the bells ringing and many more. It’s easier not to interact with others if I can’t hear perfectly. This would not make me peculiar and I would not lose a sense of belonging.</p>
+
+				<p>This always made me wonder, how does it feel to have a normal hearing? What does a voice normally sound like? Is it twice the volume I am hearing? This ringing sound that I have constantly in the ear is that normal? I have lots of questions which I know no one can answer, but I do not need all the answers. I just wanted to feel alive and normal, so this part of life was on a “need-to-know” basis. I do not want sympathy, or pity I just want to have a normal conversation without having to say “What did you say?”.</p>
+
+			</section>
+
+			<footer>
+				
+				<p>Copyright (c) 2019</p>
+
+			</footer>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<script>
+	        $(document).ready(function () {
+	            activeSetup();
+	            $('.menuIcon').click(function (e) {
+	                $('#navBar ul').toggleClass('smallScreen');
+	            })
+
+	            function activeSetup() {
+	                var urlPath = window.location.pathname;
+	                console.log(urlPath);
+	                $('nav a').each(function () {
+
+	                    var href = $(this).attr('href');
+	                    // console.log(href);
+	                    //console.log(urlPath.substring(0, href.length));
+	                    if (urlPath === href) {
+	                        console.log('match');
+	                        $(this).closest('li').addClass('active');
+	                    }
+
+	                })
+	            }
+	        })
+	    </script>
+
+	</body>
+
+</html>
