@@ -94,7 +94,7 @@ p{
 	text-align: justify;
 }
 
-#firstBlog, #secondBlog, #thirdBlog{
+#firstProject, #secondProject, #thirdProject{
 	float: left;
 	text-align: justify;
 	width: 30%;
@@ -111,21 +111,15 @@ p{
     text-align: center;
 }
 
-#blogSpace{
+#projectSpace{
 	padding-left: 60px;
 }
 
-#blogImages{
+#projectImages{
 	clear: both;
 	width: 98%;
 	height: 400px;
 	overflow: hidden;
-}
-
-#blogSection{
-	padding-top: 30px;
-	margin: 15px;
-	padding: 10px;
 }
 
 .button {
@@ -170,19 +164,19 @@ p{
 		width: 100%;
 	}
 	
-	#firstBlog, #secondBlog, #thirdBlog{
+	#firstProject, #secondProject, #thirdProject{
 		text-align: justify;
 		width: 100%;
 		padding: 20px;
 	}
 	
-	#blogSpace{
+	#projectSpace{
 		padding-left: 0px;
 		margin: 10px;
 		padding-right: 40px;
 	}
 
-	#blogImages{
+	#projectImages{
 		clear: both;
 		width: 100px;
 		height: 200px;
