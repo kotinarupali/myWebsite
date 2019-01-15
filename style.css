@@ -84,10 +84,9 @@ p{
 #imageSection{
 	padding: 5px;
 	width: 98%;
-	  background-position: center;
-  background-repeat: no-repeat;
+	  background: url("pic_1.JPG") no-repeat center; 
   background-size: cover;
-  position: relative;
+  height: 100px;
 }
 
 #aboutMeSection{
