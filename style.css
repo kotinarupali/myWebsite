@@ -104,11 +104,11 @@ p{
 #wrapper footer{
 	clear: both;
 	width: 100%;
-    background-color: #ddd;
-    font-size: 1em;
-    height: 30px;
-    padding: auto;
-    text-align: center;
+    	background-color: #ddd;
+    	font-size: 1em;
+	height: 30px;
+	padding: auto;
+    	text-align: center;
 }
 
 #projectSpace{
@@ -120,6 +120,13 @@ p{
 	width: 98%;
 	height: 400px;
 	overflow: hidden;
+}
+
+#miniProjectSpace{
+	padding-left: 60px;
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/22/23/03/hardwood-1851071_1280.jpg");
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
 }
 
 .button {
