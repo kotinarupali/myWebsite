@@ -82,6 +82,7 @@ p{
 }
 
 #imageSection{
+	background: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg") no-repeat center;
 	padding: 5px;
 	max-width: 98%;
 	max-height: 300px;
