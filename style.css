@@ -98,6 +98,8 @@ p{
 	text-align: justify;
 	width: 30%;
 	padding: 10px;
+	background-color: white;
+	opacity: 0.5;
 }
 
 #wrapper, #miniWrapper footer{
