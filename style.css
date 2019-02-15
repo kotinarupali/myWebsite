@@ -77,14 +77,14 @@ p{
 }
 
 #imageSection{
-	padding: 5px;
-	opacity: 0.3;
-	background-size: 100% auto;
+	float: left;
+	padding: 25px 50px 75px 100px;
+	width: 600px;
 }
 
 #aboutMeSection{
+	float: left;
 	padding: 5px;
-	width: 98%;
 	text-align: justify;
 }
 
