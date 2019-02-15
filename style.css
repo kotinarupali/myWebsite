@@ -67,10 +67,11 @@ p{
 }
 
 #wrapper{
-	background-color: white;
+	background-image: url("coverPhoto.jpg");
 	max-width: 100%;
 	position: relative;
 	top: 40px;
+	opacity: 0.2;
 	text-align: center;
 }
 
