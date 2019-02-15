@@ -83,11 +83,9 @@ p{
 
 #imageSection{
 	padding: 5px;
-	max-width: 98%;
-	max-height: 300px;
 	opacity: 0.3;
 	overflow: hidden;
-	background-size: cover;
+	background-size: 100% auto;
 }
 
 #aboutMeSection{
